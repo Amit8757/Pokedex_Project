@@ -1,12 +1,49 @@
 .Pokemon-list-wrapper{
-    margin: 1rem auto;
-
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
-.Pokemon_lis {
-    text-align: center;
-    font-size: 24px; /* optional: makes it look better */
-    font-weight: bold; /* optional */
-    margin-bottom: 20px; /* optional: spacing */
+.Pokemon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
   }
   
+  .Pokemon-wrapper::before {
+    content: attr(data-loading);
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.controls button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+    background-color: #125a9c;
+}

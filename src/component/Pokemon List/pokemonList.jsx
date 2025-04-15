@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Pokemon from "../pokemon/pokemon";
-import "./pokemonList.css"
+import "../Pokemon List/pokemonList.css"
 
 function PokemonList(){
     
@@ -47,10 +47,15 @@ function PokemonList(){
     } , []);
     
     return <div className="Pokemon-list-wrapper">
-                <div className="Pokemon_lis"> Pokemon List </div> 
-                {(isLoading) ? 'Loading....':
-                pokemonList.map((p)=> <Pokemon name = {p.name} image = {p.image} key = {p.id} />)
-                }
+                <div className="Pokemon-wrapper">
+                    {(isLoading) ? 'Loading....':
+                    pokemonList.map((p)=> <Pokemon name = {p.name} image = {p.image} key = {p.id} />)
+                    }
+                </div>
+                <div className="controls">
+                    <button>Prev</button>
+                    <button>Next</button>
+                </div>
             </div>
 }
 
