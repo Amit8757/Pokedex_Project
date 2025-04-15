@@ -1,0 +1,12 @@
+.Pokemon-list-wrapper{
+    margin: 1rem auto;
+
+
+}
+.Pokemon_lis {
+    text-align: center;
+    font-size: 24px; /* optional: makes it look better */
+    font-weight: bold; /* optional */
+    margin-bottom: 20px; /* optional: spacing */
+  }
+  
