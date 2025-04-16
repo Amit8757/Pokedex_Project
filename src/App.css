@@ -1,0 +1,38 @@
+/* Overall Layout */
+.outer-pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f1f1f1, #d1e8ff);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Pokedex Heading */
+#pokedex-heading {
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Heading Link */
+#pokedex-heading a {
+    color: #e63946;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#pokedex-heading a:hover {
+    color: #ff6b6b;
+    transform: scale(1.05);
+}
+
+/* Visited Link (optional) */
+a:visited {
+    color: #333;
+}

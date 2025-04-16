@@ -33,4 +33,13 @@
     text-transform: uppercase;
     color: #333;
     letter-spacing: 0.5rem; /* 👈 this adds 2rem spacing between letters */
+    text-decoration: none;
 }
+
+  
+.pokemon a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
