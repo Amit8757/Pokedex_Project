@@ -47,3 +47,37 @@
 .controls button:hover {
     background-color: #125a9c;
 }
+ 
+ /* filter */
+
+ .type-filter {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .type-filter select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  .pokemon-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+  

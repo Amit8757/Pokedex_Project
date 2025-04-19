@@ -94,4 +94,71 @@
     }
 }
 
+.similar-pokemon-section {
+    margin-top: 2rem;
+}
+
+.similar-pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.similar-pokemon-card {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.similar-pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+.similar-pokemon-card {
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.similar-pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.similar-pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.similar-pokemon-card {
+    text-decoration: none;
+    color: #333;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 120px;
+}
+
+.similar-pokemon-card:hover {
+    background: #ffe87d;
+    transform: scale(1.05);
+}
+
+
+
   
